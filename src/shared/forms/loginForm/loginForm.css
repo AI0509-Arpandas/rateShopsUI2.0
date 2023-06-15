@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  width: 800px;
+  box-shadow: 5px black;
+}
+
+.imagesContainer{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  margin: 0px;
+}
+
+.imageContainer{
+  height: 250px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.formContainer{
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+h2 {
+  opacity: 70%;
+}
+
+.logo{
+  max-width: 60%;
+  max-height: 60%;
+}
+
+form{
+  text-align: center;
+}
